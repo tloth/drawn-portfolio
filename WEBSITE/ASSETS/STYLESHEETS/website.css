@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	font-family: "Josefin Sans";
+	font-family: "Josefin Sans", sans-serif;
     line-height: 1;
 }
 ol, ul {
@@ -79,7 +79,7 @@ h5 {
     color: rgba(90,25,25,.7);
 }
 h6 {
-    font-size: 13px;
+    font-size: 14px;
     color: rgba(90,25,25,.4);
 }
 #logo {
@@ -94,7 +94,7 @@ h6 {
 
 .main {
     background: #F6B092;
-    color: #903B0C;
+    color: rgba(90,25,25,.8);
 }
 
 #test {
@@ -105,9 +105,21 @@ h6 {
     width: 63%;
     margin: 0 1.5%;
 }
-label {
-    font-size: inherit;
-    /*does this do anything at all???*/
+.questions {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.answers {
+    font-weight: normal;
+    line-height: 1.5;
+    padding: 5px;
+}
+.buttons {
+    background: rgba(246,217,146,.5);
+    border-radius: 5px;
+    color: rgba(90,25,25);
+    font-family: "Josefin Sans", sans-serif;
 }
 #infopic {
     float: right;
@@ -121,6 +133,9 @@ label {
     float: none;
     width: 60%;
     border-radius: 60px;
+}
+#teachPart {
+    text-align: center;
 }
 
 #reviewsPart {
@@ -143,12 +158,13 @@ figure {
 }
 .studentimgs {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 figcaption {
     background-color: rgba(240,248,255,.2);
     padding: 3px;
     text-align: center;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .links {
@@ -169,7 +185,7 @@ figcaption {
     width: 20%;
 }
 .icons {
-   width: 65%;
+    width: 50%;
     padding:15%;
 }
 #tobey {
