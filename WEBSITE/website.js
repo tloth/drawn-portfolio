@@ -1,17 +1,17 @@
 function changeInfoPicMOver() {
     const infopic = document.querySelector("#infopic");
-    infopic.setAttribute("src", "ASSETS/annaHope.png");
+    infopic.setAttribute("src", "WEBSITE/ASSETS/annaHope.png");
 }
 function changeInfoPicMOut() {
-    infopic.setAttribute("src", "ASSETS/annaHope_sepia.png");
+    infopic.setAttribute("src", "WEBSITE/ASSETS/annaHope_sepia.png");
 }
 
 function changeTeachPicMOver() {
     const teach = document.querySelector("#teach");
-    teach.setAttribute("src", "ASSETS/teaching.jpeg");
+    teach.setAttribute("src", "WEBSITE/ASSETS/teaching.jpeg");
 }
 function changeTeachPicMOut() {
-    teach.setAttribute("src", "ASSETS/teaching_sepia.jpg");
+    teach.setAttribute("src", "WEBSITE/ASSETS/teaching_sepia.jpg");
 }
 
 
@@ -61,5 +61,5 @@ function answerText4() {
 }
 
 function alertTobey() {
-    alert("NICE");
+    alert("nice");
 }
