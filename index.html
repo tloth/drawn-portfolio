@@ -14,7 +14,7 @@
                 <img id="logo" src="WEBSITE/ASSETS/logo.jpg" alt="Jake, the dog holding up a sign that says 'if you're reading this you're beautiful">
             </div>
             <div>
-                <a class="h1" href="website.html">ANNA T</a>
+                <a class="h1" href="https://tloth.github.io/">ANNA T</a>
                 <h5>Public Crier, EFL Teacher, Wannabe Good-Doer</h5>
                 <h6>Paint Master, Sad For-Loop Enthusiast, Sad Mother of Infinite Loops</h6>
 <!-- Commented the navigation out because the header covered most of the sections after clicking. Plus it's a very short, one-page website, shouldn't need much scrolling. Maybe not great in terms of accessibility, but I added h3 class to the titles so they should be recognisable by screenreaders?
@@ -33,34 +33,42 @@
                             <div id="qs">
                                 <h3>WHO IS SHE?</h3>
 <!-- <a name="info" class="h3">WHO IS SHE?</a> -->
-                                <p id="qfrom">1: Where is Anna from?</p>
-                                    <label for="qfrom">Hungary</label>
-                                    <input type="radio" name="qfrom" id="Hungary">
-                                    <label for="qfrom">Norway</label>
-                                    <input type="radio" name="qfrom" id="Norway">
-                                    <button id="button1" onclick="answerText1()">Check!</button>
-                                    <p class="answers" id="ans1" style="display:none;">Born and raised in the land of lángos and amazing animation (Hungary!), she then proceeded to move to the Big Smog to study Norwegian language and culture. After her year abroad spent in Paris of the North (Tromso, Norway), she completed the CELTA course and now can (ironically) teach English as a Foreign Language.</p>
-                                <p id="qfear">2: What is Anna's biggest fear (other than watching her loved ones die a horrible death)?</p>
-                                    <label for="qfear">Working a soulless money-oriented job for the rest of her life</label>
-                                    <input type="radio" name="qfear" id="soulless">
-                                    <label for="qfear">Spiders</label>
-                                    <input type="radio" name="qfear" id="spiders">
-                                    <button id="button2" onclick="answerText2()">Check!</button>
-                                    <p class="answers" id="ans2" style="display:none;">Oh, spiders are _fine_! She has tried herself in the world of catering and retail, both of which have proven to suck out most of her soul particles – what’s the point in selling people overpriced things they don’t really need, when there are people in the world who can’t even buy the things they do need? She soon realised the only way she would not feel like slicing her stomach with a butterknife in any given second at work is if she found something with meaning, something that actually improved general well-being. She is fully aware that this is an awfully complex area, but as her late beloved Cory Monteith, she also believes in the importance of prevention. Reading around at university and while teaching, she gradually realised that it all comes down to education. However manipulative/evil it may sound, young minds are easier to shape, and hey… kids are the future, and it is our duty to summarise what we’ve learnt the hard way and make it natural for them, so that we, as a society can <a href="https://www.youtube.com/watch?v=LmW3H-EXYS0" target="_blank">keep moving forward.</a></p>
-                                <p id="qcolour">3: What is Anna's favourite colour?</p>
-                                    <label for="qcolour">Ocean green</label>
-                                    <input type="radio" name="qcolour" id="ocean">
-                                    <label for="qcolour">Grass green</label>
-                                    <input type="radio" name="qcolour" id="grass">
-                                    <button id="button3" onclick="answerText3()">Check!</button>
-                                    <p class="answers" id="ans3" style="display:none;">Both! Either! All greens! Quality education is crucial, and there are so many causes to care and learn about! Even though she cannot be fully devoted to all existing issues, Anna deeply cares about quite a few: for instance, the environment (fighting global warming and all that jazz, all living things (except maybe pigeons)), physical and mental health (self-love should be reinforced from day 1), and social phenomena (who would have thought there are people in 2018 who have a problem with other people’s gender? race?? sexual orientation??? They clearly didn’t grow up playing The Sims 3…). Though during her three months of teaching, she did try to spread the word (“Love yourself! And be a decent human being!”), she never got further than having sometimes heated discussions about veganism with sometimes borderline-carnivorous Italian teenagers and encouraging classes of little Spaniards to believe in themselves and follow their dreams. She found the process rather rewarding, but then she wondered, ‘There must be a way of reaching more people than just a couple dozen youngsters at a time!’, and surely enough, there is one fish that seemed to be popping up whenever she thought about it: tech!</p>
-                                <p id="qanimal">4: What is Anna's favourite animal?</p>
-                                    <label for="qanimal">Sloth</label>
-                                    <input type="radio" name="qanimal" id="sloth">
-                                    <label for="qanimal">Pigeon</label>
-                                    <input type="radio" name="qanimal" id="pigeon">
-                                    <button id="button4" onclick="answerText4()">Check!</button>
-                                    <p class="answers" id="ans4" style="display:none;">Please don’t even mention the p-word to her! On the other hand, the pleasure that sloths bring Anna remind her of the truly joyous moment when her dear Joko told her about this wonderous organisation called Founders and Coders who share so many of her own cherished values! Having had no idea whatsoever about what coding might entail, she soon realised it’s a whole new world of fresh languages – possibly her favourite bit of life (tying with sloths). Although HTML, CSS and JavaScript are a tad bit more complicated than her usual Indo-European and Finno-Ugric tongues, she has been finding problem-solving and creating beautiful virtual things from scratch (well, checking <a href="https://bongo.cat/" target="_blank">others’</a> out) exciting, promising and fulfilling. And quite frankly, it has given her hope. Pretty white boys have been singing about <a href="https://youtu.be/36tggrpRoTI?t=62" target="_blank">never giving up</a>, and surely enough, Founders and Coders has popped up as a reminder and an opportunity to learn and to improve in order to be able to then help others to do the same.</p>
+                                <div class="questions">
+                                    <p id="qfrom">1: Where is Anna from?</p>
+                                        <input type="radio" name="qfrom" id="Hungary">
+                                        <label for="qfrom">Hungary</label>
+                                        <input type="radio" name="qfrom" id="Norway">
+                                        <label for="qfrom">Norway</label>
+                                        <button class="buttons" id="button1" onclick="answerText1()">Check!</button>
+                                        <p class="answers" id="ans1" style="display:none;">Born and raised in the land of lángos and amazing animation (Hungary!), she then proceeded to move to the Big Smog, where she studied Norwegian language and culture. After her year abroad spent in Paris of the North (Tromsø, Norway), she completed the CELTA course and now can (ironically) teach English as a Foreign Language.</p>
+                                </div>
+                                <div class="questions">
+                                    <p id="qfear">2: What is Anna's biggest fear (other than watching her loved ones die a horrible death)?</p>
+                                        <input type="radio" name="qfear" id="soulless">
+                                        <label for="qfear">Working a soulless, money-oriented job for the rest of her life</label>
+                                        <input type="radio" name="qfear" id="spiders">
+                                        <label for="qfear">Spiders</label>
+                                        <button class="buttons" id="button2" onclick="answerText2()">Check!</button>
+                                    <p class="answers" id="ans2" style="display:none;">Oh, spiders are <i>fine!</i> She has tried herself in the world of catering and retail, both of which have proven to suck out most of her soul particles. What’s the point in selling people overpriced things they don’t really need, when there are people in the world who can’t even buy the things they do need? She soon realised the only way she would not feel like slicing her stomach with a butterknife in any given second at work is if she found something with meaning, something that actually improved general well-being. She is fully aware that this is an awfully complex area, but as her late beloved Cory Monteith, she also believes in the importance of prevention. Reading around at university and while teaching, she gradually realised that it all comes down to education! However manipulative/evil it may sound, young minds are easier to shape, and hey… kids are the future! It is our duty to summarise what we’ve learnt the hard way, and make it natural for them, so that we, as a society can <a href="https://www.youtube.com/watch?v=LmW3H-EXYS0" target="_blank">keep moving forward.</a></p>
+                                </div>
+                                <div class="questions">
+                                    <p id="qcolour">3: What is Anna's favourite colour?</p>
+                                        <input type="radio" name="qcolour" id="ocean">
+                                        <label for="qcolour">Ocean green</label>
+                                        <input type="radio" name="qcolour" id="grass">
+                                        <label for="qcolour">Grass green</label>
+                                        <button class="buttons" id="button3" onclick="answerText3()">Check!</button>
+                                        <p class="answers" id="ans3" style="display:none;">Both! Either! All greens! Quality education is crucial, and there are so many causes to care and learn about! Even though she cannot be fully devoted to all existing issues, Anna deeply cares about quite a few: for instance, the environment (fighting global warming and all that jazz, all living things (except maybe pigeons)), physical and mental health (self-love should be reinforced from day 1), and social phenomena (who would have thought there are people in 2018 who have a problem with other people’s gender? race?? sexual orientation??? They clearly didn’t grow up playing The Sims 3…). Though during her three months of teaching, she did try to spread the word (“Love yourself! And be a decent human being!”), she never got further than having sometimes heated discussions about veganism with borderline-carnivorous Italian teenagers. She found the process rather rewarding, but then she wondered, ‘There must be a way of reaching more people than just a couple dozen youngsters at a time!’, and surely enough, there is one fish that seemed to be popping up whenever she thought about it: tech!</p>
+                                </div>
+                                <div class="questions">
+                                    <p id="qanimal">4: What is Anna's favourite animal?</p>
+                                        <input type="radio" name="qanimal" id="sloth">
+                                        <label for="qanimal">Sloth</label>
+                                        <input type="radio" name="qanimal" id="pigeon">
+                                        <label for="qanimal">Pigeon</label>
+                                        <button class="buttons" id="button4" onclick="answerText4()">Check!</button>
+                                        <p class="answers" id="ans4" style="display:none;">Please don’t even mention the p-word to her! On the other hand, the pleasure that sloths bring Anna remind her of the truly joyous moment when her dear Joko told her about this wonderous organisation called Founders and Coders. They share so many of her own cherished values! Having had no idea whatsoever about what coding might entail, she soon realised it’s a whole new world of fresh languages – languages being possibly her favourite bit of life (tying with sloths). Although HTML, CSS and JavaScript are a tad bit more complicated than her usual Indo-European and Finno-Ugric tongues, she has been finding problem-solving and creating beautiful virtual things from scratch (well, checking <a href="https://bongo.cat/" target="_blank">others’</a> out) exciting, promising and fulfilling. And quite frankly, it has given her hope. Pretty white boys have been singing about <a href="https://youtu.be/36tggrpRoTI?t=62" target="_blank">never giving up</a>, and surely enough, Founders and Coders has popped up as a reminder and an opportunity to learn and to improve in order to be able to then help others to do the same.</p>
+                                </div>
                             </div>
                             <div>
                                 <img id="infopic" src="WEBSITE/ASSETS/annaHope_sepia.png" alt="Anna looking sexy" onmouseover="changeInfoPicMOver()" onmouseout="changeInfoPicMOut()">
@@ -100,7 +108,7 @@
                             <a href="https://github.com/tloth" target="_blank"><img class="icons" id="github" src="WEBSITE/ASSETS/LOGOS/github.svg" alt="Link to Github"></a>
                             <a href="https://www.freecodecamp.org/tloth" target="_blank"><img class="icons" id="fcc" src="WEBSITE/ASSETS/LOGOS/freecodecamp.svg" alt="Link to FreeCodeCamp"></a>
                             <a href="https://www.codewars.com/users/tloth" target="_blank"><img class="icons" id="codewars" src="WEBSITE/ASSETS/LOGOS/codewars.svg" alt="Link to Codewars"></a>
-                            <a href="#" target="_blank"> <img class="icons" id="carousel" src="WEBSITE/ASSETS/LOGOS/codepen.svg" alt="Link to Image Carousel"></a>
+                            <a href="https://tloth.github.io/carouseloth/" target="_blank"> <img class="icons" id="carousel" src="WEBSITE/ASSETS/LOGOS/carousel.svg" alt="Link to Image Carousel"></a>
                         </div>
                 </section>
         </div>
