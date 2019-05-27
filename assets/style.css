@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background: rgb(230, 199, 115);
+    font-family: 'Amiri', serif;
+    /* color: rgb(20, 21, 104); */
+    color: hsla(var(--accent), 41%, 23%, 1);
+  }
+  
+        /*** colour variables ***/
+  .about {
+      --accent: 237;
+  }
+  .projects {
+      --accent: 0;
+  }
+  .cv {
+      --accent: 138;
+  }
+  
+  
+        /*** navigation bar ***/
+  
+  .navigation {
+    height: 10vh;
+  }
+  
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsla(var(--accent), 41%, 23%, 1);
+  }
+  
+  .nav__li {
+    display: block;
+    float: left;
+    color: rgb(230, 199, 115);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav__a {
+    color: rgb(230, 199, 115);
+    text-decoration: none;
+  }
+  
+  /* Change the link color to beige on hover */
+  .link:hover {
+    background-color: rgb(230, 199, 115);
+    color: hsla(var(--accent), 41%, 23%, 1);
+  }
+  
+  /* page links */
+  
+  .page__link:link, .page__link:visited, .page__link:active {
+    color: hsla(var(--accent), 41%, 23%, 1); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  .page__link:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .link:hover > a {
+    color: hsla(var(--accent), 41%, 23%, 1);
+  }
+  
+        /*** about page ***/
+  
+  .about__section {
+    position: relative;
+    height: 85vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+  }
+  
+  .about__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+        /*** cv page ***/
+  
+  .cv__section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vh 20vw;
+  }
+  
+  .cv__text1 {
+    flex-grow: 1;
+  }
+  
+  .cv__img {
+    height: 80vh;
+  }
+  
+  .cv__text2 {
+    flex-grow: 1;
+  }
+  
+  .contact {
+    text-align: right;
+  }
+  
+        /*** projects page ***/
+  
+  .project__link:link, .project__link:visited, .project__link:active {
+    font-weight: 600;
+  }
+  
+  .projects-section {
+    margin-top: 5vh;
+    margin-left: 5vw;  
+  }
+  
