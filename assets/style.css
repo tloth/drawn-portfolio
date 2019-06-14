@@ -73,16 +73,18 @@ body {
         /*** about page ***/
   
   .about__section {
-    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
     height: 85vh;
     margin-top: 5vh;
     margin-left: 5vw;
   }
   
   .about__img {
-    position: absolute;
     bottom: 0;
     right: 0;
+    max-width: 80vw;
   }
   
         /*** cv page ***/
@@ -120,3 +122,14 @@ body {
     margin-left: 5vw;  
   }
   
+  
+
+
+
+  /******* Mobile Last But Not Least *******/
+
+  @media screen and (max-width: 992px) {
+
+   /*** about page ***/
+  
+  }
