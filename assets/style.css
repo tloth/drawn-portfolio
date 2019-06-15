@@ -82,8 +82,7 @@ body {
   }
   
   .about__img {
-    bottom: 0;
-    right: 0;
+    align-self: flex-end;
     max-width: 80vw;
   }
   
