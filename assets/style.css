@@ -120,6 +120,10 @@ body {
     max-height: 10em;
     max-width: 50vw;
   }
+
+  .underline {
+    text-decoration: underline;
+  }
   
                                                   /*** cv page ***/
   
