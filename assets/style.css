@@ -38,6 +38,10 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .nav__li--left {
+    float: right;
+  }
   
   .nav__a {
     color: rgb(230, 199, 115);
@@ -45,7 +49,7 @@ body {
   }
   
         /* Change the link color to beige on hover */
-        
+
   .link:hover {
     background-color: rgb(230, 199, 115);
     color: hsla(var(--accent), 41%, 23%, 1);
