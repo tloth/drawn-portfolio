@@ -2,11 +2,10 @@ body {
     margin: 0;
     background: rgb(230, 199, 115);
     font-family: 'Amiri', serif;
-    /* color: rgb(20, 21, 104); */
     color: hsla(var(--accent), 41%, 23%, 1);
   }
   
-        /*** colour variables ***/
+                                                /*** colour variables ***/
   .about {
       --accent: 237;
   }
@@ -17,7 +16,7 @@ body {
       --accent: 138;
   }
   
-        /*** navigation bar ***/
+                                                /*** navigation bar ***/
   
   .navigation {
     height: 10vh;
@@ -45,13 +44,14 @@ body {
     text-decoration: none;
   }
   
-  /* Change the link color to beige on hover */
+        /* Change the link color to beige on hover */
+        
   .link:hover {
     background-color: rgb(230, 199, 115);
     color: hsla(var(--accent), 41%, 23%, 1);
   }
   
-  /* page links */
+        /* page links */
   
   .page__link:link, .page__link:visited, .page__link:active {
     color: hsla(var(--accent), 41%, 23%, 1); 
@@ -69,7 +69,7 @@ body {
     color: hsla(var(--accent), 41%, 23%, 1);
   }
   
-        /*** about page ***/
+                                                 /*** about page ***/
   
   .about__section {
     display: flex;
@@ -85,7 +85,7 @@ body {
     max-width: 80vw;
   }
   
-        /*** projects page ***/
+                                                  /*** projects page ***/
   
   .project__link:link, .project__link:visited, .project__link:active {
     font-weight: 600;
@@ -117,7 +117,7 @@ body {
     max-width: 50vw;
   }
   
-        /*** cv page ***/
+                                                  /*** cv page ***/
   
   .cv__section {
     display: flex;
@@ -139,16 +139,4 @@ body {
 
   .contact {
     text-align: right;
-  }
-  
-  
-
-
-
-  /******* Mobile Last But Not Least *******/
-
-  @media screen and (max-width: 992px) {
-
-   /*** about page ***/
-  
   }
