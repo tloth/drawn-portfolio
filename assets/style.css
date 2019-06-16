@@ -125,18 +125,18 @@ body {
     margin: 5vh 20vw;
   }
   
-  .cv__text1 {
-    flex-grow: 1;
-  }
-  
   .cv__img {
     height: 80vh;
+    padding: 1em;
   }
-  
-  .cv__text2 {
-    flex-grow: 1;
+
+  .cv_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 0;
   }
-  
+
   .contact {
     text-align: right;
   }
