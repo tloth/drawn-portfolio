@@ -91,7 +91,8 @@ body {
   
                                                   /*** projects page ***/
   
-  .project__link:link, .project__link:visited, .project__link:active {
+  .project__link:link, .project__link:visited, .project__link:active,
+  .cv__link:link, .cv__link:visited, .cv__link:active {
     font-weight: 600;
   }
   
@@ -138,7 +139,7 @@ body {
     padding: 1em;
   }
 
-  .cv_text {
+  .cv__text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
